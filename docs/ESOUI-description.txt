@@ -1,0 +1,137 @@
+[QUOTE][B]AI disclosure:[/B] This addon's code was written with the assistance of an AI coding assistant (Claude by Anthropic), working from my designs and instructions. I test every release in game on my own characters before it goes up, and I maintain it. Please report any problem in the comments.
+
+[COLOR="#A08CFF"][B]Credits[/B][/COLOR]
+[LIST]
+[*][COLOR="#B4B0D8"]Settings page uses [B]LibAddonMenu-2.0[/B] by Seerah and sirinsidiator.[/COLOR]
+[*][COLOR="#B4B0D8"]Works alongside [B]FCO ItemSaver[/B] by Baertram and [B]Item Saver[/B] by Randactyl: what they protect is left alone. Neither is needed.[/COLOR]
+[*][COLOR="#B4B0D8"]Game API details from the ESOUI wiki and ZeniMax's ESO UI source code.[/COLOR]
+[*][COLOR="#B4B0D8"]License: PolyForm Noncommercial 1.0.0. Free to use and share; selling it needs a separate license from the author.[/COLOR]
+[/LIST][/QUOTE]
+
+[CENTER][SIZE="6"][FONT="Georgia"][COLOR="#A08CFF"][B]Fury's Quality of Life[/B][/COLOR][/FONT][/SIZE]
+[SIZE="3"][COLOR="#5CC2FF"][I]Small comforts for everyday play. Turn on only what you want.[/I][/COLOR][/SIZE][/CENTER]
+[CENTER][SIZE="1"][COLOR="#B4B0D8"]FURY'S ADDONS[/COLOR]   [URL="https://www.esoui.com/downloads/info5063.html"]Guild Management Toolset[/URL]   |   [URL="https://www.esoui.com/downloads/info5078.html"]Character Tracker[/URL]   |   [URL="https://www.esoui.com/downloads/info5099.html"]Inventory Ledger[/URL]   |   [URL="https://www.esoui.com/downloads/info5106.html"]Account Sync[/URL]   |   [COLOR="#A08CFF"][B]Quality of Life[/B][/COLOR][/SIZE][/CENTER]
+
+[B]Tired of clicking forty items into the deconstruct slot one by one, or of staring at a bobber?[/B] This addon collects small comforts like that. Each one is a switch on the settings page, and you turn on only the ones you want.
+[QUOTE][SIZE="3"][COLOR="#5CC2FF"][B]Headline comfort: Select all when you deconstruct[/B][/COLOR][/SIZE]
+A [B]Select all[/B] button next to the big item slot puts every item of the list you are looking at into the slot with one click. It leaves your locked, set and researchable items alone, and it only selects: you still press Deconstruct yourself.[/QUOTE]
+[LIST]
+[*][COLOR="#A08CFF"][B]Everything starts turned off.[/B][/COLOR]  The addon does nothing until you turn a feature on.
+[*][COLOR="#A08CFF"][B]It only selects.[/B][/COLOR]  Nothing is deconstructed until you press the game's own Deconstruct key, and the game still asks you to confirm.
+[*][COLOR="#A08CFF"][B]Careful to begin with.[/B][/COLOR]  Set items, gear you can still research, crafted gear, Armory gear and anything better than Superior (blue) are left out until you allow them.
+[*][COLOR="#A08CFF"][B]Locks are respected.[/B][/COLOR]  Items you locked in the game are never selected. Neither are items FCO ItemSaver or Item Saver protect, if you use one of them.
+[/LIST]
+[B]Requires:[/B] [URL="https://www.esoui.com/downloads/info7-LibAddonMenu.html"]LibAddonMenu-2.0[/URL] (version 43 or newer). Install it separately, from the link or by searching for LibAddonMenu in Minion. Without it, this addon will not load.
+
+[SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]First steps[/B][/COLOR][/FONT][/SIZE]
+[LIST=1]
+[*]Type [FONT="Courier New"][B]/qol[/B][/FONT] in chat. The [B]Start here[/B] page opens and explains everything in one page.
+[*]Click the gear at its top right (or open Settings > Addons > Fury's Quality of Life) and turn on [B]Select all and Select none buttons[/B].
+[*]Open a crafting station's Deconstruct tab and click [B]Select all[/B].
+[/LIST]
+
+[SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]Select all on the deconstruct screens[/B][/COLOR][/FONT][/SIZE]
+[COLOR="#B4B0D8"][I]One switch turns it on everywhere. It starts turned off.[/I][/COLOR]
+[QUOTE][LIST]
+[*][COLOR="#A08CFF"][B]Crafting stations:[/B][/COLOR]  The Deconstruct tab of blacksmithing, clothing, woodworking and jewelry stations.
+[*][COLOR="#A08CFF"][B]Enchanting tables:[/B][/COLOR]  The Extraction tab, for glyphs.
+[*][COLOR="#A08CFF"][B]Deconstruction assistant:[/B][/COLOR]  The deconstruct-anything screen of Giladil the Ragpicker.
+[/LIST][/QUOTE]
+[LIST]
+[*]One click selects every item of the list on screen. The tab you are on and "Include banked items" both count, so you choose the list and the button fills the slot.
+[*]The game takes up to 100 items at a time. With more than that, deconstruct and click Select all again.
+[*]After each click a chat line says how many items were selected and why the others were left out, for example: Selected 31 items. Left out 6: 4 set items, 2 with a trait to research.
+[*][B]Select none[/B], right under it, empties the slot again. You can still add or remove any item by hand.
+[*][B]Keep the slot filled[/B] (its own switch, starts turned off): after Select all, each deconstruct is followed by the next batch, so a full bag is only a few presses of the Deconstruct key. It stops when the list is empty, when you click Select none or when you leave the station.
+[/LIST]
+
+[SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]What Select all leaves alone[/B][/COLOR][/FONT][/SIZE]
+[COLOR="#A08CFF"][B]Always[/B][/COLOR]
+[LIST]
+[*]Items you locked in the game.
+[*]Items FCO ItemSaver or Item Saver protect from deconstruction.
+[/LIST]
+[COLOR="#A08CFF"][B]Until you allow it in the settings[/B][/COLOR]
+[LIST]
+[*][B]Set items:[/B] gear that belongs to an item set.
+[*][B]Set pieces you have not collected yet:[/B] kept out even when set items are allowed, so you can bind them first.
+[*][B]Gear with a trait you can still research[/B] on this character.
+[*][B]Crafted gear:[/B] gear made by a player. Glyphs are not affected.
+[*][B]Gear in an Armory build.[/B]
+[*][B]Best quality to pick up:[/B] items and glyphs better than this are left out. It starts at Superior (blue).
+[/LIST]
+
+[SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]Fishing[/B][/COLOR][/FONT][/SIZE]
+[COLOR="#B4B0D8"][I]Four switches. All start turned off.[/I][/COLOR]
+[QUOTE][LIST]
+[*][COLOR="#A08CFF"][B]Bite alert:[/B][/COLOR]  A sound and a flash across the screen the moment a fish bites, so you can look away while you wait. You still reel in yourself. Pick the sound, or none, and try it with a button in the settings.
+[*][COLOR="#A08CFF"][B]Choose the right bait:[/B][/COLOR]  Looking at a fishing hole chooses the bait that fits its water. If you carry both baits for that water, the one you have the most of is used.
+[*][COLOR="#A08CFF"][B]Bag nearly full warning:[/B][/COLOR]  When a fish bites and your bag has 5 free slots or fewer, a chat line and a short sound say so.
+[*][COLOR="#A08CFF"][B]Rare fish callout:[/B][/COLOR]  When a rare fish (the kind the fishing achievements count) lands in your bag, its name flashes across the screen and a chat line links it.
+[/LIST][/QUOTE]
+[LIST]
+[*][B]Foul water:[/B] Crawlers or Fish Roe. [B]Rivers:[/B] Insect Parts or Shad. [B]Lakes:[/B] Guts or Minnow. [B]Salt water:[/B] Worms or Chub.
+[*]With neither bait in the bag, Simple Bait is used if you have any. A chat line says what was chosen.
+[*]The bait is chosen once each time you look at a hole. A bait you pick by hand afterwards stays until you look away.
+[*]The water is read from the English name of the fishing hole, so choosing bait needs the game in English.
+[/LIST]
+
+[SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]Queue alert[/B][/COLOR][/FONT][/SIZE]
+[COLOR="#B4B0D8"][I]One switch. Starts turned off.[/I][/COLOR]
+When the dungeon finder, a battleground queue or another group finder queue asks if you are ready, a sound and [B]Your queue is ready![/B] across the screen tell you, so you don't miss it while you look away. You still accept it yourself. It has its own sound choice and a button to try it.
+
+[SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]Lock what I'm wearing[/B][/COLOR][/FONT][/SIZE]
+[LIST]
+[*][B]Lock what I'm wearing[/B] puts the game's own lock on every piece of gear the character has on, both weapon bars included. A locked item can't be deconstructed, sold, traded or destroyed, and Select all never picks it up.
+[*][B]Unlock what I'm wearing[/B] takes the locks off again.
+[*]Both are buttons in the settings, [FONT="Courier New"][B]/qol lock[/B][/FONT] and [FONT="Courier New"][B]/qol unlock[/B][/FONT], and keys you can bind.
+[*]Turn on [B]Buttons on the inventory screen[/B] and both also sit under your weapons on the left of the inventory screen. Starts turned off.
+[*]It locks what is worn at that moment. After you change gear, click it again.
+[/LIST]
+
+[SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]Settings, commands and keys[/B][/COLOR][/FONT][/SIZE]
+[B]Settings:[/B] the gear on the Start here page, Settings > Addons > Fury's Quality of Life, or [FONT="Courier New"][B]/qol settings[/B][/FONT].
+[B]Key:[/B] Controls > Keybindings > Fury's Quality of Life has keys for Select all, Lock what I'm wearing and Unlock what I'm wearing. They start unbound.
+[LIST]
+[*][FONT="Courier New"][B]/qol[/B][/FONT] open or close the Start here page
+[*][FONT="Courier New"][B]/qol settings[/B][/FONT] the settings page
+[*][FONT="Courier New"][B]/qol select[/B][/FONT] Select all on the deconstruct screen you have open
+[*][FONT="Courier New"][B]/qol lock[/B][/FONT] and [FONT="Courier New"][B]/qol unlock[/B][/FONT] lock or unlock everything you are wearing
+[*][FONT="Courier New"][B]/qol help[/B][/FONT] list the commands
+[*][FONT="Courier New"][B]/furyqol[/B][/FONT] does the same, in case another addon uses /qol
+[/LIST]
+
+[SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]Questions[/B][/COLOR][/FONT][/SIZE]
+[B]Can it deconstruct something by itself?[/B]
+No. It only fills the slot. You press Deconstruct, and the game asks you to confirm when more than one item is in the slot.
+
+[B]Why was an item left out?[/B]
+The chat line after each click says why. The hover tip on the button lists what is left out with your current settings.
+
+[B]Does it work in gamepad mode?[/B]
+The fishing features do. The Select all button is part of the keyboard and mouse interface and is not added in gamepad mode.
+
+[B]Does the bite alert reel in for me?[/B]
+No. It tells you a fish is on the line; you press your interact key.
+
+[B]Do I need FCO ItemSaver?[/B]
+No. If you use it, what it protects from deconstruction is left alone. Without it, the game's own item lock does the job.
+
+[B]What comes next?[/B]
+More small comforts, each with its own switch that starts turned off. Ideas are welcome in the comments.
+
+
+[SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]More from Fury[/B][/COLOR][/FONT][/SIZE]
+[LIST]
+[*][URL="https://www.esoui.com/downloads/info5063.html"][B]Fury's Guild Management Toolset[/B][/URL]: an officer's toolkit: bank alerts, member and inactivity reports, trader week totals, raffles, event sign-ups and recruiting.
+[*][URL="https://www.esoui.com/downloads/info5078.html"][B]Fury's Character Tracker[/B][/URL]: every character on one board: skill lines, crafting, research, daily writs, wallet and gear.
+[*][URL="https://www.esoui.com/downloads/info5099.html"][B]Fury's Inventory Ledger[/B][/URL]: every item you own in one list, across all your characters, the bank and your houses, with export to Excel.
+[*][URL="https://www.esoui.com/downloads/info5106.html"][B]Fury's Account Sync[/B][/URL]: make your other accounts on this PC match your main one: settings, keybinds, addon settings and builds.
+[/LIST]
+All free here on ESOUI and in Minion.
+
+[SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]Bugs, ideas and source[/B][/COLOR][/FONT][/SIZE]
+Bug reports and ideas are welcome in the comments.
+Source code: [URL="https://github.com/AlbertHoffpauir/Fury-s-Quality-of-Life"]GitHub[/URL]
+
+[CENTER][SIZE="1"][COLOR="#B4B0D8"]FURY'S ADDONS[/COLOR]   [URL="https://www.esoui.com/downloads/info5063.html"]Guild Management Toolset[/URL]   |   [URL="https://www.esoui.com/downloads/info5078.html"]Character Tracker[/URL]   |   [URL="https://www.esoui.com/downloads/info5099.html"]Inventory Ledger[/URL]   |   [URL="https://www.esoui.com/downloads/info5106.html"]Account Sync[/URL]   |   [COLOR="#A08CFF"][B]Quality of Life[/B][/COLOR][/SIZE][/CENTER]
