@@ -10,9 +10,6 @@
             <Action name="FURYSQUALITYOFLIFE_UNLOCK">
                 <Down>FurysQualityOfLife.UnlockWorn()</Down>
             </Action>
-            <Action name="FURYSQUALITYOFLIFE_FURY_MENU">
-                <Down>FurysAddonMenu.Toggle()</Down>
-            </Action>
             <Action name="FURYSQUALITYOFLIFE_GUIDE">
                 <Down>FurysQualityOfLife.ToggleStart()</Down>
             </Action>

@@ -10,7 +10,7 @@
 
 [CENTER][SIZE="6"][FONT="Georgia"][COLOR="#A08CFF"][B]Fury's Quality of Life[/B][/COLOR][/FONT][/SIZE]
 [SIZE="3"][COLOR="#5CC2FF"][I]Small comforts for everyday play. Turn on only what you want.[/I][/COLOR][/SIZE][/CENTER]
-[CENTER][SIZE="1"][COLOR="#B4B0D8"]FURY'S ADDONS[/COLOR]   [URL="https://www.esoui.com/downloads/info5063.html"]Guild Management Toolset[/URL]   |   [URL="https://www.esoui.com/downloads/info5078.html"]Character Tracker[/URL]   |   [URL="https://www.esoui.com/downloads/info5099.html"]Inventory Ledger[/URL]   |   [URL="https://www.esoui.com/downloads/info5106.html"]Account Sync[/URL]   |   [COLOR="#A08CFF"][B]Quality of Life[/B][/COLOR][/SIZE][/CENTER]
+[CENTER][SIZE="1"][COLOR="#B4B0D8"]FURY'S ADDONS[/COLOR]   [URL="https://www.esoui.com/downloads/info5063.html"]Guild Toolset[/URL]   |   [URL="https://www.esoui.com/downloads/info5078.html"]Character Tracker[/URL]   |   [URL="https://www.esoui.com/downloads/info5099.html"]Inventory Ledger[/URL]   |   [URL="https://www.esoui.com/downloads/info5106.html"]Account Sync[/URL]   |   [COLOR="#A08CFF"][B]Quality of Life[/B][/COLOR][/SIZE][/CENTER]
 
 [B]Tired of clicking forty items into the deconstruct slot one by one, or of staring at a bobber?[/B] This addon collects small comforts like that. Each one is a switch on the settings page, and you turn on only the ones you want.
 [QUOTE][SIZE="3"][COLOR="#5CC2FF"][B]Headline comfort: Select all when you deconstruct[/B][/COLOR][/SIZE]
@@ -123,7 +123,7 @@ More small comforts, each with its own switch that starts turned off. Ideas are 
 
 [SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]More from Fury[/B][/COLOR][/FONT][/SIZE]
 [LIST]
-[*][URL="https://www.esoui.com/downloads/info5063.html"][B]Fury's Guild Management Toolset[/B][/URL]: an officer's toolkit: bank alerts, member and inactivity reports, trader week totals, raffles, event sign-ups and recruiting.
+[*][URL="https://www.esoui.com/downloads/info5063.html"][B]Fury's Guild Toolset[/B][/URL]: an officer's toolkit: bank alerts, member and inactivity reports, trader week totals, raffles, event sign-ups and recruiting.
 [*][URL="https://www.esoui.com/downloads/info5078.html"][B]Fury's Character Tracker[/B][/URL]: every character on one board: skill lines, crafting, research, daily writs, wallet and gear.
 [*][URL="https://www.esoui.com/downloads/info5099.html"][B]Fury's Inventory Ledger[/B][/URL]: every item you own in one list, across all your characters, the bank and your houses, with export to Excel.
 [*][URL="https://www.esoui.com/downloads/info5106.html"][B]Fury's Account Sync[/B][/URL]: make your other accounts on this PC match your main one: settings, keybinds, addon settings and builds.
@@ -134,4 +134,4 @@ All free here on ESOUI and in Minion.
 Bug reports and ideas are welcome in the comments.
 Source code: [URL="https://github.com/AlbertHoffpauir/Fury-s-Quality-of-Life"]GitHub[/URL]
 
-[CENTER][SIZE="1"][COLOR="#B4B0D8"]FURY'S ADDONS[/COLOR]   [URL="https://www.esoui.com/downloads/info5063.html"]Guild Management Toolset[/URL]   |   [URL="https://www.esoui.com/downloads/info5078.html"]Character Tracker[/URL]   |   [URL="https://www.esoui.com/downloads/info5099.html"]Inventory Ledger[/URL]   |   [URL="https://www.esoui.com/downloads/info5106.html"]Account Sync[/URL]   |   [COLOR="#A08CFF"][B]Quality of Life[/B][/COLOR][/SIZE][/CENTER]
+[CENTER][SIZE="1"][COLOR="#B4B0D8"]FURY'S ADDONS[/COLOR]   [URL="https://www.esoui.com/downloads/info5063.html"]Guild Toolset[/URL]   |   [URL="https://www.esoui.com/downloads/info5078.html"]Character Tracker[/URL]   |   [URL="https://www.esoui.com/downloads/info5099.html"]Inventory Ledger[/URL]   |   [URL="https://www.esoui.com/downloads/info5106.html"]Account Sync[/URL]   |   [COLOR="#A08CFF"][B]Quality of Life[/B][/COLOR][/SIZE][/CENTER]

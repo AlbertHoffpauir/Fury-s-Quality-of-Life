@@ -1,5 +1,9 @@
 # Fury's Quality of Life changelog
 
+## 0.4.4
+- One key for the Fury addons menu: "Open the Fury addons menu" now shows once in Controls > Keybindings, under Fury's Addons. If you had set a key for it, set it again there.
+- Fury's Guild Management Toolset is now called Fury's Guild Toolset.
+
 ## 0.4.3
 - First public release, on ESOUI and GitHub. No change in the game.
 
