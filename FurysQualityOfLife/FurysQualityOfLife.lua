@@ -13,7 +13,7 @@ local QOL = FurysQualityOfLife
 
 QOL.name    = "FurysQualityOfLife"
 QOL.title   = "Fury's Quality of Life"
-QOL.version = "0.4.4"
+QOL.version = "0.5.4"
 
 -- Everything a new install starts with. Every switch is off; the "take" switches are extra
 -- kinds of items Select all may pick up, so off is the careful choice.
@@ -131,7 +131,9 @@ function QOL.ShowStart()
     if not startReady then
         startReady = true
         T.SetTitle(win, QOL.title, QOL.version)
-        T.Gear(win, win:GetNamedChild("Close"), QOL.OpenSettings, "Settings: turn features on and off (also /qol settings)")
+        local gear = T.Gear(win, win:GetNamedChild("Close"), QOL.OpenSettings, "Settings: turn features on and off (also /qol settings)")
+    -- The other Fury addons, one click each, in the title bar (Theme.lua).
+        T.TitleIcons(win, gear)
     end
 end
 
