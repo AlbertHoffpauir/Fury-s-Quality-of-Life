@@ -1,5 +1,8 @@
 # Fury's Quality of Life changelog
 
+## 0.5.5
+- **Bite alert only when you are fishing.** Handing in a writ, or anything else that emptied a bag slot, could show "Fish on the line!" and ring the bell. The alert now only counts bait you use at a fishing hole.
+
 ## 0.5.4
 - **Smaller version number.** The version in the title bar is now in small print, the same in every Fury window, so the name and your other Fury addons' icons stand out.
 

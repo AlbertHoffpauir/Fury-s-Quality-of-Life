@@ -95,6 +95,15 @@ local function ChooseBait(holeName)
     end
 end
 
+-- When the crosshair was last on a fishing hole. A bite only counts shortly after that, so bait
+-- or anything else leaving the bags somewhere else (a writ handed in, a sale) is never a bite.
+local lastHole = nil
+local FISHING_WINDOW = 90000   -- a cast waits well under a minute for its bite
+
+local function AtFishingHole()
+    return lastHole ~= nil and GetGameTimeMilliseconds() - lastHole <= FISHING_WINDOW
+end
+
 -- Runs a few times a second while the switch is on. The bait is chosen once each time the
 -- crosshair lands on a fishing hole, so a bait picked by hand afterwards stays.
 local function WatchCrosshair()
@@ -103,6 +112,8 @@ local function WatchCrosshair()
         lookingAt = nil
         return
     end
+    lastHole = GetGameTimeMilliseconds()
+    if not QOL.SV().fishBait then return end   -- only here to note the fishing hole
     if GetInteractionType() == INTERACTION_FISH then return end   -- line is out: leave the bait
     if lookingAt == name then return end
     lookingAt = name
@@ -171,29 +182,36 @@ local function OnSlotUpdate(_, bag, slot, isNew, _, reason, stackCountChange)
         QOL.Msg("Bag change: bag " .. bag .. ", item type " .. itemType .. ", count " .. tostring(stackCountChange) .. ", reason " .. tostring(reason)
             .. ", new " .. tostring(isNew) .. ", interaction " .. GetInteractionType() .. ", in world " .. tostring(inWorld))
     end
-    if stackCountChange ~= -1 or not inWorld then return end
-    -- one bait gone (a backpack slot is empty when it was the last one)
-    if itemType == ITEMTYPE_LURE or (itemType == ITEMTYPE_NONE and bag == BAG_BACKPACK) then Bite() end
+    if stackCountChange ~= -1 or not inWorld or not AtFishingHole() then return end
+    -- One bait gone. 0.5.5: an emptied backpack slot no longer counts, because a writ handed in
+    -- empties one too; the last bait of a stack is seen by WatchLure below.
+    if itemType == ITEMTYPE_LURE then Bite() end
 end
 
 -- Reads the count of the chosen bait several times a second.
 local watchedLure, watchedCount = nil, 0
 
 local function WatchLure()
+    -- The bait watched so far, even when the game has just unselected it because it ran out.
+    if watchedLure then
+        local _, _, count = GetFishingLureInfo(watchedLure)
+        count = count or 0
+        if count ~= watchedCount then
+            local inWorld, atHole = InWorld(), AtFishingHole()
+            if debugOn then
+                QOL.Msg("Bait count: " .. watchedCount .. " to " .. count .. ", interaction " .. GetInteractionType() .. ", in world " .. tostring(inWorld)
+                    .. ", at a fishing hole " .. tostring(atHole))
+            end
+            if count == watchedCount - 1 and inWorld and atHole then Bite() end
+        end
+    end
     local lure = GetFishingLure()
     if not lure or lure == 0 then
         watchedLure = nil
         return
     end
     local _, _, count = GetFishingLureInfo(lure)
-    if lure == watchedLure and count ~= watchedCount then
-        local inWorld = InWorld()
-        if debugOn then
-            QOL.Msg("Bait count: " .. watchedCount .. " to " .. count .. ", interaction " .. GetInteractionType() .. ", in world " .. tostring(inWorld))
-        end
-        if count == watchedCount - 1 and inWorld then Bite() end
-    end
-    watchedLure, watchedCount = lure, count
+    watchedLure, watchedCount = lure, count or 0
 end
 QOL.WatchLure = WatchLure
 
@@ -228,7 +246,7 @@ function QOL.RefreshFishing()
         watchedLure = nil
         EVENT_MANAGER:RegisterForUpdate(LURE_UPDATE, 100, WatchLure)
     end
-    if sv.fishBait then
+    if sv.fishBait or sv.fishAlert or sv.fishBagWarn or debugOn then
         lookingAt = nil
         EVENT_MANAGER:RegisterForUpdate(BAIT_UPDATE, 250, WatchCrosshair)
     end
