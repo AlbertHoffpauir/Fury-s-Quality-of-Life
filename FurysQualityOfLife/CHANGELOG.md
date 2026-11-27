@@ -1,5 +1,8 @@
 # Fury's Quality of Life changelog
 
+## 0.5.9
+- **Fury's Addons Menu is now a required library**, like LibAddonMenu-2.0, so it shows in the game's Required Add-Ons list. Install it from ESOUI or Minion (Minion 3 does not install libraries for you). It gives all of Fury's addons the Fury sidebar and `/fury`.
+
 ## 0.5.8
 - **Fishing alerts listen less.** The bite alert, bag warning and rare fish alert now ask the game only for item changes in your backpack and craft bag, instead of checking every inventory change themselves (an ESOUI review suggestion).
 - The manifest lists Fury's Addons Menu as an optional library without a version check, as ESOUI asks (the game does not check versions there).

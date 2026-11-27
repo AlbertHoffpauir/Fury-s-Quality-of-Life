@@ -10,8 +10,9 @@
 
 [CENTER][SIZE="6"][FONT="Georgia"][COLOR="#A08CFF"][B]Fury's Quality of Life[/B][/COLOR][/FONT][/SIZE]
 [SIZE="3"][COLOR="#5CC2FF"][I]Small comforts for everyday play. Turn on only what you want.[/I][/COLOR][/SIZE][/CENTER]
-[CENTER][SIZE="1"][COLOR="#B4B0D8"]FURY'S ADDONS[/COLOR]   [URL="https://www.esoui.com/downloads/info5063.html"]Guild Toolset[/URL]   |   [URL="https://www.esoui.com/downloads/info5078.html"]Character Tracker[/URL]   |   [URL="https://www.esoui.com/downloads/info5099.html"]Inventory Ledger[/URL]   |   [URL="https://www.esoui.com/downloads/info5106.html"]Account Sync[/URL]   |   [COLOR="#A08CFF"][B]Quality of Life[/B][/COLOR][/SIZE][/CENTER]
+[CENTER][SIZE="1"][COLOR="#B4B0D8"]FURY'S ADDONS[/COLOR]   [URL="https://www.esoui.com/downloads/info5063.html"]Guild Toolset[/URL]   |   [URL="https://www.esoui.com/downloads/info5078.html"]Character Tracker[/URL]   |   [URL="https://www.esoui.com/downloads/info5099.html"]Inventory Ledger[/URL]   |   [URL="https://www.esoui.com/downloads/info5106.html"]Account Sync[/URL]   |   [COLOR="#A08CFF"][B]Quality of Life[/B][/COLOR]   |   [URL="https://www.esoui.com/downloads/info5126-FurysAddonsMenu.html"]Addons Menu[/URL][/SIZE][/CENTER]
 
+[QUOTE][COLOR="#5CC2FF"][B]New:[/B][/COLOR] this addon now requires [URL="https://www.esoui.com/downloads/info5126-FurysAddonsMenu.html"]Fury's Addons Menu[/URL], a free library like LibAddonMenu-2.0. Minion 3 does not install libraries for you, so if the addon stops loading after this update, install it from the link or in Minion.[/QUOTE]
 [B]Tired of clicking forty items into the deconstruct slot one by one, or of staring at a bobber?[/B] This addon collects small comforts like that. Each one is a switch on the settings page, and you turn on only the ones you want.
 [QUOTE][SIZE="3"][COLOR="#5CC2FF"][B]Headline comfort: Select all when you deconstruct[/B][/COLOR][/SIZE]
 A [B]Select all[/B] button next to the big item slot puts every item of the list you are looking at into the slot with one click. It leaves your locked, set and researchable items alone, and it only selects: you still press Deconstruct yourself.[/QUOTE]
@@ -21,8 +22,7 @@ A [B]Select all[/B] button next to the big item slot puts every item of the list
 [*][COLOR="#A08CFF"][B]Careful to begin with.[/B][/COLOR]  Set items, gear you can still research, crafted gear, Armory gear and anything better than Superior (blue) are left out until you allow them.
 [*][COLOR="#A08CFF"][B]Locks are respected.[/B][/COLOR]  Items you locked in the game are never selected. Neither are items FCO ItemSaver or Item Saver protect, if you use one of them.
 [/LIST]
-[B]Requires:[/B] [URL="https://www.esoui.com/downloads/info7-LibAddonMenu.html"]LibAddonMenu-2.0[/URL] (version 43 or newer). Install it separately, from the link or by searching for LibAddonMenu in Minion. Without it, this addon will not load.
-[B]Optional:[/B] [B]Fury's Addons Menu[/B] (version 1.3.0 or newer) adds the Fury sidebar: [FONT="Courier New"][B]/fury[/B][/FONT], a slim bar with one icon per Fury addon, and the other Fury addons' icons in this addon's title bar. Without it, this addon works the same, just without those.
+[B]Requires:[/B] [URL="https://www.esoui.com/downloads/info7-LibAddonMenu.html"]LibAddonMenu-2.0[/URL] (version 43 or newer) and [URL="https://www.esoui.com/downloads/info5126-FurysAddonsMenu.html"][B]Fury's Addons Menu[/B][/URL] (version 1.3.0 or newer), which gives all of Fury's addons the Fury sidebar and [FONT="Courier New"][B]/fury[/B][/FONT]. Both are separate downloads: get them from the links, or search for them in Minion (Minion 3 does not install libraries for you). Without them, this addon will not load.
 
 [SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]First steps[/B][/COLOR][/FONT][/SIZE]
 [LIST=1]
@@ -135,4 +135,4 @@ All free here on ESOUI and in Minion.
 Bug reports and ideas are welcome in the comments.
 Source code: [URL="https://github.com/AlbertHoffpauir/Fury-s-Quality-of-Life"]GitHub[/URL]
 
-[CENTER][SIZE="1"][COLOR="#B4B0D8"]FURY'S ADDONS[/COLOR]   [URL="https://www.esoui.com/downloads/info5063.html"]Guild Toolset[/URL]   |   [URL="https://www.esoui.com/downloads/info5078.html"]Character Tracker[/URL]   |   [URL="https://www.esoui.com/downloads/info5099.html"]Inventory Ledger[/URL]   |   [URL="https://www.esoui.com/downloads/info5106.html"]Account Sync[/URL]   |   [COLOR="#A08CFF"][B]Quality of Life[/B][/COLOR][/SIZE][/CENTER]
+[CENTER][SIZE="1"][COLOR="#B4B0D8"]FURY'S ADDONS[/COLOR]   [URL="https://www.esoui.com/downloads/info5063.html"]Guild Toolset[/URL]   |   [URL="https://www.esoui.com/downloads/info5078.html"]Character Tracker[/URL]   |   [URL="https://www.esoui.com/downloads/info5099.html"]Inventory Ledger[/URL]   |   [URL="https://www.esoui.com/downloads/info5106.html"]Account Sync[/URL]   |   [COLOR="#A08CFF"][B]Quality of Life[/B][/COLOR]   |   [URL="https://www.esoui.com/downloads/info5126-FurysAddonsMenu.html"]Addons Menu[/URL][/SIZE][/CENTER]

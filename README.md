@@ -2,17 +2,17 @@
 
 **AI disclosure:** This addon's code was written with the assistance of an AI coding assistant (Claude by Anthropic), working from my designs and instructions. I test every release in game on my own characters before it goes up, and I maintain it. Please report any problem in the comments on ESOUI or in the issues here.
 
+> **New:** this addon now requires [Fury's Addons Menu](https://www.esoui.com/downloads/info5126-FurysAddonsMenu.html), a free library like LibAddonMenu-2.0. Minion 3 does not install libraries for you, so if the addon stops loading after this update, install it from the link or in Minion.
+
 Small comforts for everyday play in The Elder Scrolls Online. Each one is a switch on the settings page.
 
 **Everything starts turned off.** The addon does nothing until you turn a feature on.
 
 ## Downloads
 
-Get it from [ESOUI](https://www.esoui.com/downloads/info5115-FurysQualityofLife.html) or Minion: search for "Fury's Quality of Life". The same files are in [`FurysQualityOfLife/`](FurysQualityOfLife/) here, and as [FurysQualityOfLife-0.5.8.zip](https://github.com/AlbertHoffpauir/Fury-s-Quality-of-Life/raw/main/downloads/FurysQualityOfLife-0.5.8.zip).
+Get it from [ESOUI](https://www.esoui.com/downloads/info5115-FurysQualityofLife.html) or Minion: search for "Fury's Quality of Life". The same files are in [`FurysQualityOfLife/`](FurysQualityOfLife/) here, and as [FurysQualityOfLife-0.5.9.zip](https://github.com/AlbertHoffpauir/Fury-s-Quality-of-Life/raw/main/downloads/FurysQualityOfLife-0.5.9.zip).
 
-**Requires:** [LibAddonMenu-2.0](https://www.esoui.com/downloads/info7-LibAddonMenu.html) (version 43 or newer).
-
-**Optional:** Fury's Addons Menu (version 1.3.0 or newer) adds the Fury sidebar: `/fury`, a slim bar with one icon per Fury addon, and the other Fury addons' icons in this addon's title bar. Without it, this addon works the same, just without those.
+**Requires:** [LibAddonMenu-2.0](https://www.esoui.com/downloads/info7-LibAddonMenu.html) (version 43 or newer) and [Fury's Addons Menu](https://www.esoui.com/downloads/info5126-FurysAddonsMenu.html) (version 1.3.0 or newer), which gives all of Fury's addons the Fury sidebar and `/fury`. Both are separate downloads: search for them in Minion (Minion 3 does not install libraries for you) or get them from ESOUI. Without them, this addon will not load.
 
 ## Select all on the deconstruct screens
 
