@@ -22,6 +22,7 @@ A [B]Select all[/B] button next to the big item slot puts every item of the list
 [*][COLOR="#A08CFF"][B]Locks are respected.[/B][/COLOR]  Items you locked in the game are never selected. Neither are items FCO ItemSaver or Item Saver protect, if you use one of them.
 [/LIST]
 [B]Requires:[/B] [URL="https://www.esoui.com/downloads/info7-LibAddonMenu.html"]LibAddonMenu-2.0[/URL] (version 43 or newer). Install it separately, from the link or by searching for LibAddonMenu in Minion. Without it, this addon will not load.
+[B]Optional:[/B] [B]Fury's Addons Menu[/B] (version 1.2.0 or newer) adds a key for the Fury sidebar and remembers the sidebar's settings. Without it, [FONT="Courier New"][B]/fury[/B][/FONT] and the sidebar still work.
 
 [SIZE="4"][FONT="Georgia"][COLOR="#5CC2FF"][B]First steps[/B][/COLOR][/FONT][/SIZE]
 [LIST=1]

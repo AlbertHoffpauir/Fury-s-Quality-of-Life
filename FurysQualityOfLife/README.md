@@ -8,6 +8,8 @@ Small comforts for everyday play in The Elder Scrolls Online. Each one is a swit
 
 **Requires:** [LibAddonMenu-2.0](https://www.esoui.com/downloads/info7-LibAddonMenu.html) (version 43 or newer).
 
+**Optional:** Fury's Addons Menu (version 1.2.0 or newer) adds a key for the Fury sidebar and remembers the sidebar's settings. Without it, `/fury` and the sidebar still work.
+
 ## Select all on the deconstruct screens
 
 Adds a **Select all** button next to the big item slot on every deconstruct screen:

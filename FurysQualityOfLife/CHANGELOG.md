@@ -1,5 +1,8 @@
 # Fury's Quality of Life changelog
 
+## 0.5.6
+- **Fury's Addons Menu is now a separate library.** The Fury sidebar's key and saved settings used to ship as a small folder inside every Fury addon. At the request of the ESOUI team it is now its own download, Fury's Addons Menu. It is optional: install it to keep the sidebar's key and to have the sidebar remember its settings. Without it, `/fury` and the sidebar still work. Your sidebar settings and your key carry over once it is installed.
+
 ## 0.5.5
 - **Bite alert only when you are fishing.** Handing in a writ, or anything else that emptied a bag slot, could show "Fish on the line!" and ring the bell. The alert now only counts bait you use at a fishing hole.
 
