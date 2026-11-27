@@ -8,11 +8,11 @@ Small comforts for everyday play in The Elder Scrolls Online. Each one is a swit
 
 ## Downloads
 
-Get it from [ESOUI](https://www.esoui.com/downloads/info5115-FurysQualityofLife.html) or Minion: search for "Fury's Quality of Life". The same files are in [`FurysQualityOfLife/`](FurysQualityOfLife/) here, and as [FurysQualityOfLife-0.5.6.zip](https://github.com/AlbertHoffpauir/Fury-s-Quality-of-Life/raw/main/downloads/FurysQualityOfLife-0.5.6.zip).
+Get it from [ESOUI](https://www.esoui.com/downloads/info5115-FurysQualityofLife.html) or Minion: search for "Fury's Quality of Life". The same files are in [`FurysQualityOfLife/`](FurysQualityOfLife/) here, and as [FurysQualityOfLife-0.5.7.zip](https://github.com/AlbertHoffpauir/Fury-s-Quality-of-Life/raw/main/downloads/FurysQualityOfLife-0.5.7.zip).
 
 **Requires:** [LibAddonMenu-2.0](https://www.esoui.com/downloads/info7-LibAddonMenu.html) (version 43 or newer).
 
-**Optional:** Fury's Addons Menu (version 1.2.0 or newer) adds a key for the Fury sidebar and remembers the sidebar's settings. Without it, `/fury` and the sidebar still work.
+**Optional:** Fury's Addons Menu (version 1.3.0 or newer) adds the Fury sidebar: `/fury`, a slim bar with one icon per Fury addon, and the other Fury addons' icons in this addon's title bar. Without it, this addon works the same, just without those.
 
 ## Select all on the deconstruct screens
 

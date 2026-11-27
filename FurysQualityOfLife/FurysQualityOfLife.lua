@@ -13,7 +13,7 @@ local QOL = FurysQualityOfLife
 
 QOL.name    = "FurysQualityOfLife"
 QOL.title   = "Fury's Quality of Life"
-QOL.version = "0.5.6"
+QOL.version = "0.5.7"
 
 -- Everything a new install starts with. Every switch is off; the "take" switches are extra
 -- kinds of items Select all may pick up, so off is the careful choice.
