@@ -1,5 +1,8 @@
 # Fury's Quality of Life changelog
 
+## 0.6.0
+- **Saved settings now load the standard way** (ZO_SavedVars), as ESOUI's reviewers asked. Your settings are moved over by themselves the first time you log in, so nothing changes for you.
+
 ## 0.5.9
 - **Fury's Addons Menu is now a required library**, like LibAddonMenu-2.0, so it shows in the game's Required Add-Ons list. Install it from ESOUI or Minion (Minion 3 does not install libraries for you). It gives all of Fury's addons the Fury sidebar and `/fury`.
 

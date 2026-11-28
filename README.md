@@ -10,7 +10,7 @@ Small comforts for everyday play in The Elder Scrolls Online. Each one is a swit
 
 ## Downloads
 
-Get it from [ESOUI](https://www.esoui.com/downloads/info5115-FurysQualityofLife.html) or Minion: search for "Fury's Quality of Life". The same files are in [`FurysQualityOfLife/`](FurysQualityOfLife/) here, and as [FurysQualityOfLife-0.5.9.zip](https://github.com/AlbertHoffpauir/Fury-s-Quality-of-Life/raw/main/downloads/FurysQualityOfLife-0.5.9.zip).
+Get it from [ESOUI](https://www.esoui.com/downloads/info5115-FurysQualityofLife.html) or Minion: search for "Fury's Quality of Life". The same files are in [`FurysQualityOfLife/`](FurysQualityOfLife/) here, and as [FurysQualityOfLife-0.6.0.zip](https://github.com/AlbertHoffpauir/Fury-s-Quality-of-Life/raw/main/downloads/FurysQualityOfLife-0.6.0.zip).
 
 **Requires:** [LibAddonMenu-2.0](https://www.esoui.com/downloads/info7-LibAddonMenu.html) (version 43 or newer) and [Fury's Addons Menu](https://www.esoui.com/downloads/info5126-FurysAddonsMenu.html) (version 1.3.0 or newer), which gives all of Fury's addons the Fury sidebar and `/fury`. Both are separate downloads: search for them in Minion (Minion 3 does not install libraries for you) or get them from ESOUI. Without them, this addon will not load.
 
